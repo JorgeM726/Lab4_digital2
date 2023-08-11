@@ -1,0 +1,532 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+[v i1___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+[v i1___awmod __awmod `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+[v i1___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"16 C:\Users\jmuni\MPLABXProjects\Lab4_2_master.X\I2C.c
+[v _I2C_Master_Init I2C_Master_Init `(v  1 e 1 0 ]
+"32
+[v _I2C_Master_Wait I2C_Master_Wait `(v  1 e 1 0 ]
+[v i1_I2C_Master_Wait I2C_Master_Wait `(v  1 e 1 0 ]
+"39
+[v _I2C_Master_Start I2C_Master_Start `(v  1 e 1 0 ]
+[v i1_I2C_Master_Start I2C_Master_Start `(v  1 e 1 0 ]
+"47
+[v _I2C_Master_RepeatedStart I2C_Master_RepeatedStart `(v  1 e 1 0 ]
+"55
+[v _I2C_Master_Stop I2C_Master_Stop `(v  1 e 1 0 ]
+[v i1_I2C_Master_Stop I2C_Master_Stop `(v  1 e 1 0 ]
+"65
+[v _I2C_Master_Write I2C_Master_Write `(v  1 e 1 0 ]
+[v i1_I2C_Master_Write I2C_Master_Write `(v  1 e 1 0 ]
+"74
+[v _I2C_Master_Read I2C_Master_Read `(us  1 e 2 0 ]
+"13 C:\Users\jmuni\MPLABXProjects\Lab4_2_master.X\IOCB.c
+[v _ioc_init ioc_init `(i  1 e 2 0 ]
+"13 C:\Users\jmuni\MPLABXProjects\Lab4_2_master.X\LCD.c
+[v _Lcd_Port Lcd_Port `(v  1 e 1 0 ]
+"35
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+"43
+[v _Lcd_Clear Lcd_Clear `(v  1 e 1 0 ]
+"48
+[v _Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+"65
+[v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
+"83
+[v _Lcd_Write_Char Lcd_Write_Char `(v  1 e 1 0 ]
+"98
+[v _Lcd_Write_String Lcd_Write_String `(v  1 e 1 0 ]
+"52 C:\Users\jmuni\MPLABXProjects\Lab4_2_master.X\main.c
+[v _isr isr `II(v  1 e 1 0 ]
+"165
+[v _main main `(v  1 e 1 0 ]
+"337
+[v _setup setup `(v  1 e 1 0 ]
+"375
+[v _b2d b2d `(i  1 e 2 0 ]
+"379
+[v _d2b d2b `(i  1 e 2 0 ]
+[v i1_d2b d2b `(i  1 e 2 0 ]
+"392
+[v _uint8ToString uint8ToString `(v  1 e 1 0 ]
+"167 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"229
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S137 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"246
+[u S146 . 1 `S137 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES146  1 e 1 @6 ]
+"353
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+[s S335 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"370
+[u S344 . 1 `S335 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES344  1 e 1 @8 ]
+[s S105 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"483
+[s S114 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S119 . 1 `S105 1 . 1 0 `S114 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES119  1 e 1 @11 ]
+"844
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"851
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+[s S394 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+"1367
+[s S401 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+]
+[u S405 . 1 `S394 1 . 1 0 `S401 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES405  1 e 1 @129 ]
+"1417
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1479
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+[s S26 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1558
+[u S35 . 1 `S26 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES35  1 e 1 @135 ]
+"1603
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+[s S209 . 1 `uc 1 SCS 1 0 :1:0 
+`uc 1 LTS 1 0 :1:1 
+`uc 1 HTS 1 0 :1:2 
+`uc 1 OSTS 1 0 :1:3 
+`uc 1 IRCF 1 0 :3:4 
+]
+"1883
+[s S215 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 IRCF0 1 0 :1:4 
+`uc 1 IRCF1 1 0 :1:5 
+`uc 1 IRCF2 1 0 :1:6 
+]
+[u S220 . 1 `S209 1 . 1 0 `S215 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES220  1 e 1 @143 ]
+"1980
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @145 ]
+[s S47 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"1997
+[u S56 . 1 `S47 1 . 1 0 ]
+[v _SSPCON2bits SSPCON2bits `VES56  1 e 1 @145 ]
+"2049
+[v _SSPADD SSPADD `VEuc  1 e 1 @147 ]
+"2178
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
+"2347
+[v _WPUB WPUB `VEuc  1 e 1 @149 ]
+"2417
+[v _IOCB IOCB `VEuc  1 e 1 @150 ]
+"3388
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3450
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"3901
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"4045
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"4195
+[v _RD3 RD3 `VEb  1 e 0 @67 ]
+"4198
+[v _RD4 RD4 `VEb  1 e 0 @68 ]
+"4201
+[v _RD5 RD5 `VEb  1 e 0 @69 ]
+"4204
+[v _RD6 RD6 `VEb  1 e 0 @70 ]
+"4207
+[v _RD7 RD7 `VEb  1 e 0 @71 ]
+"4279
+[v _SSPIE SSPIE `VEb  1 e 0 @1123 ]
+"4282
+[v _SSPIF SSPIF `VEb  1 e 0 @99 ]
+"4462
+[v _TRISC3 TRISC3 `VEb  1 e 0 @1083 ]
+"4465
+[v _TRISC4 TRISC4 `VEb  1 e 0 @1084 ]
+"33 C:\Users\jmuni\MPLABXProjects\Lab4_2_master.X\main.c
+[v _year year `i  1 e 2 0 ]
+"34
+[v _month month `i  1 e 2 0 ]
+"35
+[v _date date `i  1 e 2 0 ]
+"36
+[v _hour hour `i  1 e 2 0 ]
+"37
+[v _min min `i  1 e 2 0 ]
+"38
+[v _sec sec `i  1 e 2 0 ]
+"39
+[v _slaveVal slaveVal `uc  1 e 1 0 ]
+"43
+[v _buffer buffer `[4]uc  1 e 4 0 ]
+"44
+[v _buffer2 buffer2 `[4]uc  1 e 4 0 ]
+"45
+[v _buffer3 buffer3 `[4]uc  1 e 4 0 ]
+"165
+[v _main main `(v  1 e 1 0 ]
+{
+"305
+[v main@year1 year1 `uc  1 a 1 7 ]
+"304
+[v main@year0 year0 `uc  1 a 1 6 ]
+"303
+[v main@month1 month1 `uc  1 a 1 5 ]
+"302
+[v main@month0 month0 `uc  1 a 1 4 ]
+"301
+[v main@date1 date1 `uc  1 a 1 3 ]
+"300
+[v main@date0 date0 `uc  1 a 1 2 ]
+"299
+[v main@hour1 hour1 `uc  1 a 1 1 ]
+"298
+[v main@hour0 hour0 `uc  1 a 1 0 ]
+"333
+} 0
+"392
+[v _uint8ToString uint8ToString `(v  1 e 1 0 ]
+{
+[v uint8ToString@num num `uc  1 a 1 wreg ]
+"416
+[v uint8ToString@tempChar tempChar `uc  1 a 1 26 ]
+"393
+[v uint8ToString@temp temp `uc  1 a 1 30 ]
+"414
+[v uint8ToString@right right `c  1 a 1 29 ]
+"413
+[v uint8ToString@left left `c  1 a 1 28 ]
+"394
+[v uint8ToString@i i `c  1 a 1 27 ]
+"392
+[v uint8ToString@num num `uc  1 a 1 wreg ]
+[v uint8ToString@str str `*.4uc  1 p 1 21 ]
+[v uint8ToString@num num `uc  1 a 1 25 ]
+"422
+} 0
+"337
+[v _setup setup `(v  1 e 1 0 ]
+{
+"373
+} 0
+"13 C:\Users\jmuni\MPLABXProjects\Lab4_2_master.X\IOCB.c
+[v _ioc_init ioc_init `(i  1 e 2 0 ]
+{
+[v ioc_init@pin pin `uc  1 a 1 wreg ]
+[v ioc_init@pin pin `uc  1 a 1 wreg ]
+[v ioc_init@pin pin `uc  1 a 1 12 ]
+"21
+} 0
+"98 C:\Users\jmuni\MPLABXProjects\Lab4_2_master.X\LCD.c
+[v _Lcd_Write_String Lcd_Write_String `(v  1 e 1 0 ]
+{
+"99
+[v Lcd_Write_String@i i `i  1 a 2 22 ]
+"98
+[v Lcd_Write_String@a a `*.26uc  1 p 2 17 ]
+"102
+} 0
+"83
+[v _Lcd_Write_Char Lcd_Write_Char `(v  1 e 1 0 ]
+{
+[v Lcd_Write_Char@a a `uc  1 a 1 wreg ]
+"84
+[v Lcd_Write_Char@y y `uc  1 a 1 15 ]
+[v Lcd_Write_Char@temp temp `uc  1 a 1 14 ]
+"83
+[v Lcd_Write_Char@a a `uc  1 a 1 wreg ]
+"85
+[v Lcd_Write_Char@a a `uc  1 a 1 16 ]
+"96
+} 0
+"48
+[v _Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+{
+[v Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+"49
+[v Lcd_Set_Cursor@temp temp `uc  1 a 1 21 ]
+[v Lcd_Set_Cursor@y y `uc  1 a 1 20 ]
+[v Lcd_Set_Cursor@z z `uc  1 a 1 19 ]
+"48
+[v Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+[v Lcd_Set_Cursor@b b `uc  1 p 1 16 ]
+"50
+[v Lcd_Set_Cursor@a a `uc  1 a 1 18 ]
+"63
+} 0
+"65
+[v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
+{
+"81
+} 0
+"43
+[v _Lcd_Clear Lcd_Clear `(v  1 e 1 0 ]
+{
+"46
+} 0
+"35
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+{
+[v Lcd_Cmd@a a `uc  1 a 1 wreg ]
+[v Lcd_Cmd@a a `uc  1 a 1 wreg ]
+[v Lcd_Cmd@a a `uc  1 a 1 15 ]
+"41
+} 0
+"13
+[v _Lcd_Port Lcd_Port `(v  1 e 1 0 ]
+{
+[v Lcd_Port@a a `uc  1 a 1 wreg ]
+[v Lcd_Port@a a `uc  1 a 1 wreg ]
+[v Lcd_Port@a a `uc  1 a 1 12 ]
+"33
+} 0
+"16 C:\Users\jmuni\MPLABXProjects\Lab4_2_master.X\I2C.c
+[v _I2C_Master_Init I2C_Master_Init `(v  1 e 1 0 ]
+{
+[v I2C_Master_Init@c c `DCul  1 p 4 26 ]
+"24
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 21 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 25 ]
+"5
+[v ___lldiv@divisor divisor `ul  1 p 4 12 ]
+[v ___lldiv@dividend dividend `ul  1 p 4 16 ]
+"30
+} 0
+"379 C:\Users\jmuni\MPLABXProjects\Lab4_2_master.X\main.c
+[v _d2b d2b `(i  1 e 2 0 ]
+{
+"384
+[v d2b@digit digit `ui  1 a 2 23 ]
+"381
+[v d2b@multiplier multiplier `ui  1 a 2 27 ]
+"380
+[v d2b@bcd bcd `ui  1 a 2 25 ]
+"379
+[v d2b@to_convert to_convert `i  1 p 2 21 ]
+"390
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 18 ]
+[v ___awmod@counter counter `uc  1 a 1 17 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 12 ]
+[v ___awmod@dividend dividend `i  1 p 2 14 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 19 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 18 ]
+[v ___awdiv@counter counter `uc  1 a 1 17 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 12 ]
+[v ___awdiv@dividend dividend `i  1 p 2 14 ]
+"41
+} 0
+"375 C:\Users\jmuni\MPLABXProjects\Lab4_2_master.X\main.c
+[v _b2d b2d `(i  1 e 2 0 ]
+{
+[v b2d@to_convert to_convert `i  1 p 2 18 ]
+"377
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 16 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 12 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 14 ]
+"53
+} 0
+"65 C:\Users\jmuni\MPLABXProjects\Lab4_2_master.X\I2C.c
+[v _I2C_Master_Write I2C_Master_Write `(v  1 e 1 0 ]
+{
+[v I2C_Master_Write@d d `ui  1 p 2 29 ]
+"69
+} 0
+"55
+[v _I2C_Master_Stop I2C_Master_Stop `(v  1 e 1 0 ]
+{
+"59
+} 0
+"39
+[v _I2C_Master_Start I2C_Master_Start `(v  1 e 1 0 ]
+{
+"43
+} 0
+"47
+[v _I2C_Master_RepeatedStart I2C_Master_RepeatedStart `(v  1 e 1 0 ]
+{
+"51
+} 0
+"74
+[v _I2C_Master_Read I2C_Master_Read `(us  1 e 2 0 ]
+{
+"76
+[v I2C_Master_Read@temp temp `us  1 a 2 16 ]
+"74
+[v I2C_Master_Read@a a `us  1 p 2 12 ]
+"89
+} 0
+"32
+[v _I2C_Master_Wait I2C_Master_Wait `(v  1 e 1 0 ]
+{
+"35
+} 0
+"52 C:\Users\jmuni\MPLABXProjects\Lab4_2_master.X\main.c
+[v _isr isr `II(v  1 e 1 0 ]
+{
+"160
+} 0
+"379
+[v i1_d2b d2b `(i  1 e 2 0 ]
+{
+"381
+[v i1d2b@multiplier multiplier `ui  1 a 2 4 ]
+"380
+[v i1d2b@bcd bcd `ui  1 a 2 2 ]
+"384
+[v i1d2b@digit digit `ui  1 a 2 0 ]
+"379
+[v i1d2b@to_convert to_convert `i  1 p 2 9 ]
+"390
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\Umul16.c
+[v i1___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v i1___wmul@product product `ui  1 a 2 4 ]
+"15
+[v i1___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v i1___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\awmod.c
+[v i1___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v i1___awmod@sign sign `uc  1 a 1 6 ]
+[v i1___awmod@counter counter `uc  1 a 1 5 ]
+"5
+[v i1___awmod@divisor divisor `i  1 p 2 0 ]
+[v i1___awmod@dividend dividend `i  1 p 2 2 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\awdiv.c
+[v i1___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v i1___awdiv@quotient quotient `i  1 a 2 7 ]
+"11
+[v i1___awdiv@sign sign `uc  1 a 1 6 ]
+[v i1___awdiv@counter counter `uc  1 a 1 5 ]
+"5
+[v i1___awdiv@divisor divisor `i  1 p 2 0 ]
+[v i1___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"65 C:\Users\jmuni\MPLABXProjects\Lab4_2_master.X\I2C.c
+[v i1_I2C_Master_Write I2C_Master_Write `(v  1 e 1 0 ]
+{
+[v i1I2C_Master_Write@d d `ui  1 p 2 11 ]
+"69
+} 0
+"55
+[v i1_I2C_Master_Stop I2C_Master_Stop `(v  1 e 1 0 ]
+{
+"59
+} 0
+"39
+[v i1_I2C_Master_Start I2C_Master_Start `(v  1 e 1 0 ]
+{
+"43
+} 0
+"32
+[v i1_I2C_Master_Wait I2C_Master_Wait `(v  1 e 1 0 ]
+{
+"35
+} 0
